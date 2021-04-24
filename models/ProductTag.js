@@ -26,7 +26,7 @@ ProductTag.init(
       references: {
         model: 'Tag',
         key: 'id',
-        unique: false
+        unique: true
       }
     }
   },
@@ -35,7 +35,7 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_tag',
+    modelName: 'pro_tag',
   }
 );
 
